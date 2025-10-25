@@ -1,0 +1,12 @@
+# InfoSync Manual Deployment Guide
+
+🔗 Vercel Project: https://vercel.com/karns-projects-60af36c1/infosync-test
+🔗 Repo: https://github.com/Imrishav2/infosync-test
+
+Manual Deploy Command:
+curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_qhakedOA7oUoneevFP8Id7hwcIl5/bgoxI35Tgn
+
+Note:
+- Runs production build from main branch
+- Auto deploys disabled for test control
+- For local testing: npm run dev
